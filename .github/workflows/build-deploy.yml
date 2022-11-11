@@ -51,3 +51,6 @@ jobs:
       - name: Confirm if env have REPOSITORY_NAME
         run: |
           echo ${{ env.REPOSITORY_NAME }}
+    # Add a id-token permission
+    permissions:
+      id-token: write
