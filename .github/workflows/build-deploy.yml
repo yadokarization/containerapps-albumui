@@ -5,6 +5,9 @@ on:
 # Add env
 env:
   CONTAINER_REGISTRY: handson01lzowdrqt6bmi6.azurecr.io
+  # Add envs
+  RESOURCE_GROUP_NAME: Handson01-CICD
+  CONTAINERAPP_NAME:  azure-cicd-seminor
 jobs:
   build:
     runs-on: ubuntu-22.04
